@@ -1,3 +1,8 @@
+/*#43464C, #9197a6, #d3dcf2, #7690cf, #48577D*/
+body, .panel, .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
+  color: #43464C;
+}
+
 #logo{
   position: absolute;
   top: 10px;
@@ -9,8 +14,16 @@
   margin-bottom:15px;
 }
 .panel{
-  background-color:#E0E6F2;
+  background-color:#d3dcf2;
+}
+#info-panels h4{
+  color:#7690CF
 }
 footer{
   text-align:center;
+  background-color:#48577D; /*#7690CF;*/
+  color:#d3dcf2;
+}
+footer p{
+  margin-top:15px;
 }
